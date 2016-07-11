@@ -1,3 +1,8 @@
+akryum:npm-check@0.0.3
+akryum:vue@1.0.3
+akryum:vue-component@0.6.2
+akryum:vue-component-dev-client@0.0.6
+akryum:vue-component-dev-server@0.0.1
 allow-deny@1.0.5
 autopublish@1.0.7
 autoupdate@1.2.10
@@ -6,7 +11,6 @@ babel-runtime@0.1.9_1
 base64@1.0.9
 binary-heap@1.0.9
 blaze@2.1.8
-blaze-html-templates@1.0.4
 blaze-tools@1.0.9
 boilerplate-generator@1.0.9
 caching-compiler@1.0.5_1
@@ -51,15 +55,17 @@ observe-sequence@1.0.12
 ordered-dict@1.0.8
 promise@0.7.2_1
 random@1.0.10
+reactive-dict@1.1.8
 reactive-var@1.0.10
 reload@1.1.10
 retry@1.0.8
 routepolicy@1.0.11
+session@1.1.6
 spacebars@1.0.12
 spacebars-compiler@1.0.12
 standard-minifier-css@1.0.7_1
 standard-minifier-js@1.0.7_1
-templating@1.1.12_1
+static-html@1.0.10_1
 templating-tools@1.0.4
 tracker@1.0.14
 ui@1.0.11
