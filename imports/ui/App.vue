@@ -5,12 +5,31 @@
       You pressed the button {{count}} times.
     </p>
     <my-button :label="buttonLabel" @click="addOne"></my-button>
+
+    <mdl-button>Button</mdl-button>
+    <mdl-button v-mdl-ripple-effect>Ripple Effect</mdl-button>
+    <mdl-button disabled>Disabled</mdl-button>
+    
+    <mdl-button fab primary icon>
+      <i class="material-icons">star</i>
+    </mdl-button>
+
+    <mdl-anchor-button href="http://vuejs.org/api" target="_blank">Open Vuejs doc</mdl-anchor-button>
+    
+    <my-material-card icon="star" color="red"></my-material-card>
+
+    <!--<div-tester concat-string="concat string"></div-tester>-->
+    <!--<my-date-picker :time.sync="starttime" :option="option" :limit="limit"></my-date-picker>-->
+    <!--Date picker: <date-picker :time.sync="starttime" :option="option" :limit="limit"></date-picker>--<
   </div>
 </template>
 
 <script>
   import {Session} from 'meteor/session';
-  
+  import myDatepicker from 'vue-datepicker'
+  //import myDatepicker from 'vue-datepicker'
+  //import myDatePicker from 'vue-datepicker'
+
   Session.setDefault("counter", 0);
   
   let labels = ['Click me!', 'Click me again!', 'Here! Click here!', 'Again! Again!',

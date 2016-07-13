@@ -21,3 +21,6 @@ insecure                # Allow all DB writes from clients (for prototyping)
 static-html
 akryum:vue-component
 session
+akryum:vue
+akryum:vue-jade
+akryum:vue-stylus
