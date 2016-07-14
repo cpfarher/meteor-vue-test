@@ -4,6 +4,7 @@
     <p>
       You pressed the button {{count}} times.
     </p>
+    <motor></motor>
     <my-button :label="buttonLabel" @click="addOne"></my-button>
 
     <mdl-button>Button</mdl-button>
@@ -17,7 +18,6 @@
     <mdl-anchor-button href="http://vuejs.org/api" target="_blank">Open Vuejs doc</mdl-anchor-button>
     
     <my-material-card icon="star" color="red"></my-material-card>
-
     <!--<div-tester concat-string="concat string"></div-tester>-->
     <!--<my-date-picker :time.sync="starttime" :option="option" :limit="limit"></my-date-picker>-->
     <!--Date picker: <date-picker :time.sync="starttime" :option="option" :limit="limit"></date-picker>--<
