@@ -7,7 +7,9 @@ Vue.use(VueMdl);
 // Main app
 //import MaterializeMdl from '/imports/ui/MaterializeMdl.vue';
 import Inspinia from '/imports/ui/Inspinia.vue';
-import Inspinia from '/imports/ui/Box.vue';
+import Box from '/imports/ui/Box.vue';
+import Popover from '/imports/ui/Popover.vue';
+import Motor from '/imports/ui/Motor.vue';
 
 Meteor.startup(() => {
   new Vue({
@@ -16,7 +18,9 @@ Meteor.startup(() => {
     components: {
       //MaterializeMdl, 
       Inspinia, 
-      Box
+      Box,
+      Popover,
+      Motor
     }
   });
 });
